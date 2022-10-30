@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: #14041a;
+
+}
+
+.olhos-gif {
+    background-repeat: no-repeat;
+    height: 800px;
+    position: absolute;
+    bottom: 100px;
+    position: absolute;
+    left: -200px;
+    right: 100px;
+
+}
+
+.titulo {
+    position: relative;
+    top: 100px
+}
+
+.abobora {
+    position: relative;
+    width: 150px;
+    bottom: 485px;
+
+}
+
+h2 {
+    color: yellow;
+
+}
+
+.informations {
+    position: relative;
+    bottom: 420px;
+    left: 50px;
+}
+
+
+
+.slider {
+    width: 360px;
+    height: 440px;
+    overflow: hidden;
+    position: relative;
+    left: 700px;
+    bottom: 250px;
+    position: relative;
+
+}
+
+.slides {
+    display: flex;
+    width: 400%;
+
+}
+
+.slides input {
+    display: none;
+
+}
+
+.ticket1 {
+    padding-left: 22px;
+    margin-left: 0px;
+}
+
+.ticket {
+    position: relative;
+
+}
+
+.manual-navigation {
+    position: absolute;
+    width: 400px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.manual-btn {
+    border: 1px solid #fff;
+    cursor: pointer;
+    padding: 3px;
+    border-radius: 10px;
+    transition: 1s;
+    margin-top: 60px;
+
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 20px;
+}
+
+.manual-btn:hover {
+    background-color: #fff;
+}
+
+#radio1:checked~.ticket1 {
+    margin-left: 0;
+}
+
+#radio2:checked~.ticket1 {
+    margin-left: -25%;
+}
+
+#radio3:checked~.ticket1 {
+    margin-left: -50%;
+}
+
+#radio4:checked~.ticket1 {
+    margin-left: -75%;
+}
